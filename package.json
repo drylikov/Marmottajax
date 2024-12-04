@@ -1,0 +1,26 @@
+{
+  "name": "marmottajax",
+  "version": "3.0.0",
+  "description": "Simple ajax library",
+  "main": "index.js",
+  "scripts": {
+    "build:dist": "uglifyjs index.js > index.min.js",
+    "build": "npm run build:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitrinicolas/marmottajax.git"
+  },
+  "keywords": [
+    "ajax"
+  ],
+  "author": "Dimitri NICOLAS",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/dimitrinicolas/marmottajax/issues"
+  },
+  "homepage": "https://github.com/dimitrinicolas/marmottajax#readme",
+  "devDependencies": {
+    "uglify-js": "^2.7.3"
+  }
+}
